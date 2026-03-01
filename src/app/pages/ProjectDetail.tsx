@@ -100,6 +100,161 @@ export default function ProjectDetail() {
         'Billing and invoicing',
         'HIPAA compliant security'
       ]
+    },
+    '4': {
+      title: 'E-Commerce Platform',
+      category: 'Web Application',
+      heroImage: 'https://images.unsplash.com/photo-1687524690542-2659f268cde8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3MjI2NTAzNHww&ixlib=rb-4.1.0&q=80&w=1080',
+      client: 'Retail Company',
+      duration: '7 months',
+      team: '9 members',
+      overview: 'A modern e-commerce platform with AI-powered product recommendations, advanced inventory management, and seamless payment integration to enhance the online shopping experience.',
+      challenge: 'Creating a scalable platform that handles high traffic volumes during peak shopping seasons while providing personalized experiences and managing complex inventory across multiple warehouses.',
+      solution: 'We implemented a cloud-native architecture with microservices, integrated machine learning for personalized recommendations, and built a robust inventory management system with real-time synchronization.',
+      technologies: ['React', 'Next.js', 'Node.js', 'MongoDB', 'Redis', 'Stripe', 'AWS', 'TensorFlow'],
+      results: [
+        { metric: '200%', description: 'Increase in sales' },
+        { metric: '3x', description: 'Faster page loads' },
+        { metric: '92%', description: 'Customer satisfaction' },
+        { metric: '1M+', description: 'Monthly transactions' }
+      ],
+      images: [
+        'https://images.unsplash.com/photo-1687524690542-2659f268cde8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3MjI2NTAzNHww&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1687524690542-2659f268cde8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3MjI2NTAzNHww&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1687524690542-2659f268cde8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3MjI2NTAzNHww&ixlib=rb-4.1.0&q=80&w=1080'
+      ],
+      features: [
+        'AI-powered recommendations',
+        'Advanced search and filters',
+        'Multi-warehouse inventory',
+        'Secure payment processing',
+        'Order tracking',
+        'Customer reviews and ratings'
+      ]
+    },
+    '5': {
+      title: 'Smart Home IoT App',
+      category: 'Mobile App',
+      heroImage: 'https://images.unsplash.com/photo-1608377205619-03a0b4c4e270?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGhvbWUlMjBhcHB8ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      client: 'IoT Manufacturer',
+      duration: '9 months',
+      team: '11 members',
+      overview: 'An IoT-enabled smart home control application with real-time monitoring, automation features, and voice control integration for managing all connected home devices.',
+      challenge: 'Building a unified platform that seamlessly connects and controls diverse IoT devices from multiple manufacturers while ensuring low latency and reliable communication.',
+      solution: 'We developed a robust IoT gateway architecture with protocol translation, implementing real-time WebSocket communication and creating an intuitive mobile interface with voice control integration.',
+      technologies: ['React Native', 'Node.js', 'MQTT', 'WebSocket', 'AWS IoT', 'Alexa Skills Kit', 'Firebase'],
+      results: [
+        { metric: '250K+', description: 'Connected devices' },
+        { metric: '4.7/5', description: 'User rating' },
+        { metric: '99.8%', description: 'Device uptime' },
+        { metric: '30%', description: 'Energy savings' }
+      ],
+      images: [
+        'https://images.unsplash.com/photo-1608377205619-03a0b4c4e270?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGhvbWUlMjBhcHB8ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1608377205619-03a0b4c4e270?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGhvbWUlMjBhcHB8ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1608377205619-03a0b4c4e270?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGhvbWUlMjBhcHB8ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080'
+      ],
+      features: [
+        'Multi-device control',
+        'Automation rules',
+        'Voice control integration',
+        'Real-time monitoring',
+        'Energy usage tracking',
+        'Security alerts'
+      ]
+    },
+    '6': {
+      title: 'Financial Trading Platform',
+      category: 'Web Application',
+      heroImage: 'https://images.unsplash.com/photo-1768055104929-cf2317674a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaW5nJTIwcGxhdGZvcm0lMjBzY3JlZW58ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      client: 'Financial Services Firm',
+      duration: '12 months',
+      team: '15 members',
+      overview: 'A secure and high-performance trading platform with real-time market data, portfolio management, advanced charting, and analytics tools for professional traders.',
+      challenge: 'Building an ultra-low latency platform that processes thousands of transactions per second while maintaining strict security and regulatory compliance requirements.',
+      solution: 'We architected a high-performance system with optimized data pipelines, implemented advanced caching strategies, and integrated real-time market data feeds with microsecond precision.',
+      technologies: ['React', 'TypeScript', 'WebSocket', 'Python', 'PostgreSQL', 'Redis', 'Kafka', 'AWS'],
+      results: [
+        { metric: '<10ms', description: 'Trade execution time' },
+        { metric: '$5B+', description: 'Trading volume' },
+        { metric: '50K+', description: 'Active traders' },
+        { metric: '99.99%', description: 'Platform availability' }
+      ],
+      images: [
+        'https://images.unsplash.com/photo-1768055104929-cf2317674a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaW5nJTIwcGxhdGZvcm0lMjBzY3JlZW58ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1768055104929-cf2317674a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaW5nJTIwcGxhdGZvcm0lMjBzY3JlZW58ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1768055104929-cf2317674a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaW5nJTIwcGxhdGZvcm0lMjBzY3JlZW58ZW58MXx8fHwxNzcyMzIwODc3fDA&ixlib=rb-4.1.0&q=80&w=1080'
+      ],
+      features: [
+        'Real-time market data',
+        'Advanced charting tools',
+        'Portfolio management',
+        'Risk analysis',
+        'Automated trading',
+        'Multi-asset support'
+      ]
+    },
+    '7': {
+      title: 'Social Media Management Tool',
+      category: 'SaaS Platform',
+      heroImage: 'https://images.unsplash.com/photo-1708447134640-2b57ad0dd846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NzIzMjA4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      client: 'Marketing Agency',
+      duration: '8 months',
+      team: '10 members',
+      overview: 'A comprehensive multi-platform social media management dashboard with content scheduling, analytics, engagement monitoring, and team collaboration features.',
+      challenge: 'Integrating with multiple social media platforms while providing unified analytics and enabling efficient team collaboration across different time zones and workflows.',
+      solution: 'We built a flexible SaaS platform with OAuth integrations for major social networks, implemented a robust scheduling system, and created collaborative workflow tools with role-based permissions.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Redis', 'Bull Queue', 'OAuth 2.0', 'Chart.js', 'AWS'],
+      results: [
+        { metric: '10K+', description: 'Active users' },
+        { metric: '5M+', description: 'Posts scheduled' },
+        { metric: '15+', description: 'Platform integrations' },
+        { metric: '80%', description: 'Time saved' }
+      ],
+      images: [
+        'https://images.unsplash.com/photo-1708447134640-2b57ad0dd846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NzIzMjA4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1708447134640-2b57ad0dd846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NzIzMjA4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1708447134640-2b57ad0dd846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NzIzMjA4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+      ],
+      features: [
+        'Multi-platform scheduling',
+        'Unified analytics',
+        'Engagement monitoring',
+        'Team collaboration',
+        'Content calendar',
+        'Performance reporting'
+      ]
+    },
+    '8': {
+      title: 'Restaurant Management System',
+      category: 'Full Stack',
+      heroImage: 'https://images.unsplash.com/photo-1556742521-9713bf272865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZXN0YXVyYW50JTIwcG9zJTIwc3lzdGVtfGVufDF8fHx8MTc3MjMyMDg3N3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      client: 'Restaurant Chain',
+      duration: '10 months',
+      team: '12 members',
+      overview: 'A complete restaurant management solution featuring POS system, inventory tracking, online ordering, table management, and integrated payment processing for multi-location operations.',
+      challenge: 'Creating a unified system that works seamlessly across multiple restaurant locations while supporting different operational workflows, managing inventory, and integrating with third-party delivery services.',
+      solution: 'We developed a cloud-based platform with offline capabilities, real-time synchronization across locations, integrated payment processing, and APIs for third-party delivery service integration.',
+      technologies: ['React', 'React Native', 'Node.js', 'PostgreSQL', 'Redis', 'Stripe', 'Twilio', 'AWS'],
+      results: [
+        { metric: '50%', description: 'Faster order processing' },
+        { metric: '35%', description: 'Reduced food waste' },
+        { metric: '25+', description: 'Locations managed' },
+        { metric: '4.9/5', description: 'Customer rating' }
+      ],
+      images: [
+        'https://images.unsplash.com/photo-1556742521-9713bf272865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZXN0YXVyYW50JTIwcG9zJTIwc3lzdGVtfGVufDF8fHx8MTc3MjMyMDg3N3ww&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1556742521-9713bf272865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZXN0YXVyYW50JTIwcG9zJTIwc3lzdGVtfGVufDF8fHx8MTc3MjMyMDg3N3ww&ixlib=rb-4.1.0&q=80&w=1080',
+        'https://images.unsplash.com/photo-1556742521-9713bf272865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZXN0YXVyYW50JTIwcG9zJTIwc3lzdGVtfGVufDF8fHx8MTc3MjMyMDg3N3ww&ixlib=rb-4.1.0&q=80&w=1080'
+      ],
+      features: [
+        'POS system',
+        'Inventory management',
+        'Online ordering',
+        'Table management',
+        'Kitchen display system',
+        'Delivery integration'
+      ]
     }
   };
 
