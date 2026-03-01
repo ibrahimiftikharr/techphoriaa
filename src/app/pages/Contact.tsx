@@ -140,9 +140,15 @@ export default function Contact() {
                       <h3 className="font-semibold mb-1 text-sm sm:text-base">Phone</h3>
                       <a
                         href="tel:+923127588997"
-                        className="text-gray-600 hover:text-[#667eea] transition-colors text-sm sm:text-base"
+                        className="text-gray-600 hover:text-[#667eea] transition-colors text-sm sm:text-base block"
                       >
                         +92 312 7588997
+                      </a>
+                      <a
+                        href="tel:+923098909627"
+                        className="text-gray-600 hover:text-[#667eea] transition-colors text-sm sm:text-base block"
+                      >
+                        +92 309 8909627
                       </a>
                     </div>
                   </div>
